@@ -11,7 +11,7 @@ export class CarbonService {
       font: 'Cascadia-Code',
       lineNumbers: true,
     });
-    const outputFilePath = 'public/temp_image.png';
+    const outputFilePath = 'temp_image.png';
     const lang = detect(code);
 
     if (lang == 'JavaScript') {
