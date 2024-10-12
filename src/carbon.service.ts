@@ -6,7 +6,7 @@ import { format } from 'prettier';
 @Injectable()
 export class CarbonService {
   async generate(code: string): Promise<string> {
-    const logger = new Logger('CarbonServicee');
+    const logger = new Logger('CarbonService');
     const carbon = new Carbon({
       font: 'Cascadia-Code',
       lineNumbers: true,
