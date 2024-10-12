@@ -16,7 +16,7 @@ export class CarbonService {
 
     if (lang == 'JavaScript') {
       try {
-        code = await format(code, { parser: 'babel' });
+        code = await format(code.trim(), { parser: 'babel' });
         logger.verbose('Code formatted');
       } catch (error) {
         logger.error('Prettier format is failed:', error);
