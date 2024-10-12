@@ -24,8 +24,12 @@
     "@nestjs/platform-express": "^10.0.0",
     "carbon-now": "^1.0.0",
     "program-language-detector": "^0.0.12",
+    "puppeteer": "^23.5.3",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
+  },
+  "resolutions": {
+    "puppeteer": "^23.5.3"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
