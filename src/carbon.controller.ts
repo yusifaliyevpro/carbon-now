@@ -21,6 +21,7 @@ export class CarbonController {
 
     try {
       await this.carbonService.generate(code);
+      res.send('Image generated ');
       HttpStatus.ACCEPTED;
     } catch (error) {
       throw new HttpException(

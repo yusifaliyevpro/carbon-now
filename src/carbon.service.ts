@@ -9,7 +9,7 @@ export class CarbonService {
       font: 'Cascadia-Code',
       lineNumbers: true,
     });
-    const outputFilePath = 'temp_image.png';
+    const outputFilePath = 'public/temp_image.png';
 
     try {
       const path = await carbon.generate(code, outputFilePath);
