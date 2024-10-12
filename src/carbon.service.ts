@@ -23,7 +23,7 @@ export class CarbonService {
     }
 
     try {
-      const path = await carbon.generate(code.trim(), outputFilePath);
+      const path = await carbon.generate(code, outputFilePath);
       return path;
     } catch (error) {
       logger.error('Image generation failed', error);
