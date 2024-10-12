@@ -23,8 +23,6 @@
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
     "carbon-now": "^1.0.0",
-    "highlight.js": "^11.10.0",
-    "lang-detector": "^1.0.6",
     "program-language-detector": "^0.0.12",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
