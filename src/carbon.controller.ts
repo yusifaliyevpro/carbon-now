@@ -20,11 +20,8 @@ export class CarbonController {
     }
 
     try {
-      // Code'u carbon-now ile image'e çevir
-      const imagePath = await this.carbonService.generate(code);
-
-      // Resim dosyasını geri döndür
-      res.sendFile(imagePath); // Bu root, projenizin kök dizinidir
+      await this.carbonService.generate(code);
+      HttpStatus.ACCEPTED;
     } catch (error) {
       throw new HttpException(
         'Failed to generate image',
